@@ -8,9 +8,9 @@
    catch(Exception $e){
         die($e->getMessage());
    }
-   echo "Starting Redis Connection \n";
-   echo "Connection to server sucessfully \n";
+   echo "Starting Redis Connection".PHP_EOL;
+   echo "Connection to server sucessfully".PHP_EOL;
    //check whether server is running or not
-   echo "Server is running: ".$redis->ping()." \n";
+   echo "Server is running: ".$redis->ping().PHP_EOL;
 ?>
 
